@@ -5,9 +5,9 @@ const app=express()
 app.get('/',(req,res)=>{
     // res.json("json rendered text")
     let employees=[
-        {id:1,name:'Esmira',age:19},
-        {id:2,name:'Banu',age:19},
-        {id:3,name:'Fidan',age:19}
+        {id:1,name:'Lale',age:19},
+        {id:2,name:'Humay',age:19},
+        {id:3,name:'Aysun',age:19}
     ]
     res.json(employees)
 })
